@@ -20,11 +20,28 @@
     </header>
 
     <main class="main">
-        <div class="wrapper">
-            <div class="squares-container">
+        <div class="settings">
+            <div class="option">
+                <input class="color" id="color-input" type="color" value="#333333">
             </div>
-            <label for="grid-size">Enter X number for GRID. MIN=2, MAX=10</label>
-            <input name="grid-size" type="number" id="grid-size" class="grid-size" min="2" max="10" value="5">
+            <div class="option">
+                <button class="btn" id="single-color">Single color</button>
+            </div>
+            <div class="option">
+                <button class="btn" id="rainbow-color">Rainbow color</button>
+            </div>
+            <div class="option">
+                <button class="btn" id="eraser">Eraser</button>
+            </div>
+            <div class="option">
+                <button class="btn" id="clear">Clear</button>
+            </div>
+            <div class="option">
+                <label class="label" for="grid-size">Enter X number for GRID. MIN=2, MAX=100</label>
+                <input name="grid-size" type="number" id="grid-size" class="grid-size" min="2" max="100" value="16">
+            </div>
+        </div>
+        <div class="squares-container">
         </div>
     </main>
 
