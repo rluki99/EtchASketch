@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	color: white;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-size: 1.6rem;
+	background: #141e30;
+	background: -webkit-linear-gradient(to right, #243b55, #141e30);
+	background: linear-gradient(to right, #243b55, #141e30);
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.header {
+	margin: 8rem 0;
+	&-text {
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+		font-size: 8rem;
+	}
+}
+
+.squares-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	user-select: none;
+	border: 2px solid black;
+	border-radius: 40px;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+
+	.square {
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		background-color: white;
+	}
+}
