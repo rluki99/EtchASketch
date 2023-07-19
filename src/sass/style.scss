@@ -13,7 +13,7 @@ html {
 
 body {
 	color: white;
-	font-family: 'Mochiy Pop P One', sans-serif;
+	font-family: 'Pangolin', cursive;
 	font-size: 1.6rem;
 	background: #141e30;
 	background: -webkit-linear-gradient(to right, #243b55, #141e30);
@@ -23,7 +23,7 @@ body {
 .header {
 	margin: 2rem 0;
 	&-text {
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Lacquer', cursive;
 		text-align: center;
 		font-size: 8rem;
 	}
@@ -67,20 +67,22 @@ body {
 		.btn {
 			background-color: rgba(255, 255, 255, 0.2);
 			cursor: pointer;
-			padding: 10px 30px;
+			padding: 8px 20px;
 			border: 1px solid white;
 			border-radius: 10px;
 			width: 80%;
 			color: white;
-			font-weight: 700;
-			transition: background-color 0.3s;
+			font-family: 'Lacquer', cursive;
+			font-size: 1.6rem;
+			transition: background-color 0.3s, color 0.3s;
 		}
 
 		.btn:hover {
 			background-color: rgb(245, 190, 52);
+			color: rgba(19, 47, 80, 0.849)
 		}
 
-		.btn-clicked {
+		.btn-active {
 			background-color: rgb(170, 127, 16);
 		}
 
@@ -89,12 +91,16 @@ body {
 			margin-bottom: 10px;
 		}
 
+		.color {
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
 		.grid-size {
 			text-align: center;
 			border-radius: 10px;
 			background-color: rgba(255, 255, 255, 0.2);
 			color: white;
-			font-weight: 700;
 		}
 	}
 }
