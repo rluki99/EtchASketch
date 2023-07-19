@@ -6,7 +6,7 @@ Etch-A-Sketch is a simple web-based drawing application that allows users to dra
 
 ## Demo
 
-You can try out the Etch-A-Sketch app [here]().
+You can try out the Etch-A-Sketch app [here](https://rluki99.github.io/EtchASketch/).
 
 ## Features
 
